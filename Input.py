@@ -1,5 +1,9 @@
 import string
 
+""" Se crea esta clase que nos permite manejar las excepciones de los datos introducidos por el usuario,
+y en el caso de este ejercicio, la podemos reutilizar tanto para los parámetros necesarios para instanciar la clase Persona,
+como para la selección de las opciones del menu """
+
 
 class Input_Check:
     # Función que devolverá un error tanto si el valor introducido no es un numero entero o es negativo.
