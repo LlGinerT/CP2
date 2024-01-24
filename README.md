@@ -4,8 +4,8 @@ Este es un proyecto de programación que genera instancias de una clase `Persona
 ## Dependencias
 
 - Faker: Para generar nombres aleatorios.
-[!IMPORTANT]
-Requiere instalación.
+>[!IMPORTANT]
+>Requiere instalación.
 ```bash
 pip install Faker
 ```
