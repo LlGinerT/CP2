@@ -17,7 +17,7 @@ def main():
         while True:
             match Input_Check.numeros():
                 # El primer case, generara una instancia de persona con nombre y edad aleatorio
-                # cada vez que se ejecute el test rápido se obtendrá uno diferente.
+                # para que cada vez que se ejecute el test rápido se obtenga un resultado diferente.
                 case 1:
                     fake = Faker()
                     nombre_aleatorio = fake.name()
@@ -29,7 +29,7 @@ def main():
                     break
 
                 # El segundo case, generara una instancia de Persona donde los parámetros los deberá
-                # introducir el usuario
+                # introducir el usuario, se repetirá hasta obtener unos datos validos.
                 case 2:
                     print("Introduzca el nombre:")
                     nombre_comprobado = Input_Check.caracter()
